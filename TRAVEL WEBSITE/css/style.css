@@ -1,0 +1,349 @@
+/* --------------GOOGLE FONT LINK ------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/*  ICON LINK  */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+/* ----------DEFAULT STYLING-----------------------------  */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------- HTML ELEMENT  STYLING ------------------------- */
+
+html{
+    font-size: 62.5%;
+}
+
+/* -------------------UTILITY CLASSES STARTS ----------------------- */
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.text-red{
+    color: #e63946;
+}
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color: #333333;
+}
+.text-gray{
+    color: #555555;
+}
+
+/* ------------------UTILITY CLASSES ENDS----------------  */
+
+
+/* ---------------------- HEADER STYLING ---------------*/
+.navbar{
+    padding: 1rem;
+}
+.header{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)),url(../images/travel0.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: 0.5em;
+}
+.nav-items{
+    display: inline-block;
+    float:right;
+    margin-top: 1.6em;
+    padding: 1em;
+    
+}
+.li-items{
+    display: inline-block;
+    font-size: 1rem;
+}
+a{
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 1.6em;
+    font-size: 1.6rem;
+    letter-spacing: 0.15em;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.header-main-heading{
+    font-size: 3.5rem;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+.header-content{
+    text-align: center;
+    padding-top: 25em;
+}
+.header-content p{
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+}
+.header-button{
+    background-color: #f4f4f4;
+    border-radius: 50px;
+    color: #e63946;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    padding: 1em;
+    margin: 2em;
+}
+.header-button:hover{
+    background-color: #ddd;
+}
+.showcase{
+    background-color: #ddd;
+    padding: 10em 0em;
+}
+.row{
+    height: 250px;
+    box-shadow: 0px 0px 20px 0px #aaa;
+    object-fit: cover;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+.row1{
+    margin-bottom: 10em;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+
+}
+.row .img-box{
+    height: 100%;
+}
+.row .text-box{
+    padding: 3em;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+.text-box p{
+    font-weight: 400;
+    word-spacing: 0.30rem;
+}
+.more-button{
+    border-radius: 25px;
+    padding: 0.50em;
+    background-color: #e63946;
+    display: inline-block;
+    margin-top: 2em;
+}
+.more-button:hover{
+    background-color: rgb(23, 21, 21);
+}
+.showcase1{
+    padding: 8em 0;
+}
+.places-list h1{
+  font-weight: 700;
+  font-size:30px;
+  color: #555555;
+  word-spacing: 0.15rem;
+}
+.places-list p{
+  word-spacing: 0.15rem;
+  color: #555555;
+  font-weight: 500;
+}
+.row3{
+    margin-top: 1.5em;
+    display: flex;
+    scroll-behavior: smooth; 
+    overflow-x: scroll;
+}
+.places_img{
+   border: 3px solid white;
+}
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.card{
+    padding: 4em ;
+    width: 100%;
+}
+.box{
+    width: 33.33%;
+    height: 200px;
+    text-align: center;
+    padding: 3em;
+    word-spacing: 0.15rem;
+    letter-spacing: 0.15em;
+    float: left;
+}
+.box1 ,.box3{
+    background-color: #555555;
+    color: white;
+}
+.box2{
+    background:linear-gradient(25deg, #d64c7f,#ee4758 50%);
+    color: white;
+}
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box-wrapper .box h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.box-wrapper .box p{
+    padding-top: 1em;
+}
+.footer-section{
+    background-color: #555555;
+    height: 100px;
+}
+.footer-icons{
+    text-align: center;
+    padding-top: 2em;
+}
+.icon{
+    font-size: 2rem;
+    color: white;
+    padding: 1em;
+}
+.footer-icons p{
+    color: white;
+    padding-top:1.5em ;
+}
+
+
+/* -------------------------MEDIA QUERIES--------------------------  */
+
+@media(max-width:500px) {
+    html{
+        /* font-size: 8px; 
+        or */
+        font-size: 50% ;
+    }
+    .logo{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .nav-items{
+        display: block;
+        float:none;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+    }
+    .row1 .img-box, .row2 .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row2 .img-box, .row1 .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row .img-box{
+        height:auto;
+    }
+    a{
+        padding: 1em;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        float: none;
+    }
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+@media (min-width:501px) and (max-width:768px) {
+    html{
+        font-size: 8px;
+    }
+    p{
+        font-size:1.3rem
+    }
+    .logo{
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .nav-items{
+        display: block;
+        float:none;
+        text-align: center;
+    }
+    .row{
+        height: auto;
+    }
+    .row1 .img-box, .row2 .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row2 .img-box, .row1 .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .row .img-box{
+        height:auto;
+    }
+    a{
+        padding: 1em;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        float: none;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+
+@media (min-width:768px)and (max-width:1200px){
+    html{
+        font-size: 56.25%;
+    }
+    .text-box h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+}
